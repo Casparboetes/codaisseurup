@@ -1,0 +1,109 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+// #c8cbbe = pale silver
+// #dcdfd1 = timberwolf
+// #d7c196 = dark vanilla #c9ad74 = light french beige for hoover
+// #d0d0d0 = light gray
+// #15010e = smoky black (text)
+
+// see https://www.youtube.com/watch?v=_U8lgQ-oGpg
+// shows how to make an application.scss
+// followed by _variables for colors
+// which you can then import in this file by doing
+// @variables.
+// also setup a main and import it under @main in this file etc.
+// Keep the style per smaller parts not like I am doing now
+// Cuase I KNOW NOTHING
+
+//  background-color: #d0d0d0;
+//  text-decoration-color: #dcdfd1;
+
+body {
+  font-family: Montserrat;
+  background-color: #d0d0d0;
+  text-decoration-color: #5d3733;
+}
+
+nav {
+  background-color: #d0d0d0;
+  color: #d0d0d0;
+}
+
+p {
+
+}
+
+
+a {
+text-decoration: none;
+
+}
+
+h1{
+  grid-template-rows: auto;
+  text-align: center;
+}
+
+
+h2 {
+
+}
+
+h3 {
+  text-align: right;
+  text-decoration-color: #5d3733;
+}
+
+
+
+.block {
+  color: #15010e;
+  clear: both;
+  margin: 0em 0em 0em 0em;
+  padding: 0.75em 0.75em;
+  background: #d0d0d0;
+  position: relative;
+  top: 490px;
+  border-top: 1px solid #000;
+}
+
+.section {
+
+
+}
+
+.button {
+
+}
+
+
+.btn-btn-default-main {
+  background-color: #d7c196;
+  color: #dcdfd1;
+  padding: 20px;
+  text-align: end;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.btn-btn-default {
+  background-color: #d7c196;
+  color: #dcdfd1;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.btn-btn-default:hover {
+    background-color: #c9ad74;
+}
