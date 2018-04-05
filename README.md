@@ -1,15 +1,16 @@
 # CoddaisseurUp
 
-Meetup clone, add your own events with images.
+MeetUp clone, add your own events with images. My second Rails project.
 
 - Clone repo
 - Bundle install
 - Rails s
-- Go to http://localhost:3000/
-###Images
+- Go to http://localhost:3000/ or check the images!
+
+####Images
 
 > Landing Page.
-                
+
 ![cup1](https://user-images.githubusercontent.com/34174855/38359607-2587ffa8-38c9-11e8-9097-39b3bdb1f382.png)
 
 >Sign Up
