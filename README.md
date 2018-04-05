@@ -6,9 +6,8 @@ MeetUp clone, add your own events with images. My second Rails project.
 - Bundle install
 - Rails s
 - Go to http://localhost:3000/ or check the images!
-
-
-####Images
+                
+###Images
 
 > Landing Page.
 
