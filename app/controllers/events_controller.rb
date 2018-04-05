@@ -40,7 +40,7 @@ class EventsController < ApplicationController
 
     if @event.save
       image_params.each do |image|
-        @event.photos.(image: image)
+        @event.photos.create(image: image)
       end
 
       redirect_to edit_event_path(@event), notice: "Event created!"
