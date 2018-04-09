@@ -4,6 +4,13 @@ MeetUp clone, add your own events with images. My second Rails project.
 
 - Go to http://localhost:3000 after installing (see steps bellow) or check the images!
 
+```
+git clone https://github.com/Casparboetes/codaisseurup
+cd codaisseurup
+bundle install
+rails db:create db:migrate db:seed
+rails server
+```
 
 ### Images
 
@@ -30,11 +37,3 @@ MeetUp clone, add your own events with images. My second Rails project.
 >Event Detail Page
 
 ![cup6](https://user-images.githubusercontent.com/34174855/38359919-95e3347a-38c9-11e8-9c26-595a76cccad5.png)
-
-```
-git clone https://github.com/Casparboetes/codaisseurup
-cd codaisseurup
-bundle install
-rails db:create db:migrate db:seed
-rails server
-```
