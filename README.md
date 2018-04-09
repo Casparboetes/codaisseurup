@@ -4,6 +4,7 @@ MeetUp clone, add your own events with images. My second Rails project.
 
 - Go to http://localhost:3000 after installing (see steps bellow) or check the images!
 
+## Running Locally
 ```
 git clone https://github.com/Casparboetes/codaisseurup
 cd codaisseurup
